@@ -1,9 +1,44 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/.github/schemas/gallery.schema.json",
   "version": "1.0",
-  "generatedAt": "2026-04-28T14:40:43Z",
-  "extensionCount": 54,
+  "generatedAt": "2026-05-10T13:34:20Z",
+  "extensionCount": 61,
   "extensions": [
+    {
+      "id": "8lwxpg.process-killer",
+      "title": "Process Killer",
+      "shortDescription": "Killing processes with process name or port number",
+      "description": "View process details like process name, command line, memory, path, window title. With ability to terminate the process",
+      "author": {
+        "name": "8LWXpg",
+        "url": "https://github.com/8LWXpg"
+      },
+      "homepage": "https://github.com/8LWXpg/CmdPal-ProcessKiller",
+      "tags": [
+        "process",
+        "program",
+        "system-utilities",
+        "taskkill",
+        "task-manager"
+      ],
+      "categories": [
+        "developer-tools",
+        "utilities-and-tools",
+        "productivity"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9PNHK9LDHMHS"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/8lwxpg/process-killer/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/8lwxpg/process-killer/screenshots/01-process.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/8lwxpg/process-killer/screenshots/02-port.png"
+      ],
+      "addedAt": "2026-05-10"
+    },
     {
       "id": "advaith.currency-converter",
       "title": "Currency Converter",
@@ -111,6 +146,41 @@
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/baldbeardedbuilder/weather/icon.png",
       "addedAt": "2026-04-12"
+    },
+    {
+      "id": "bdbai.base64-converter",
+      "title": "Base64 Converter",
+      "shortDescription": "A Command Palette extension for quick conversion to/from Base64 encoded text.",
+      "description": "A lightweight extension for Microsoft Command Palette that lets you quickly encode and decode text using Base64—right as you type. Simply enter any string into the search box and instantly see its Base64 or URL-safe Base64 equivalent, making it perfect for developers, testers, and anyone working with encoded data.\nDesigned for speed and simplicity, this extension integrates seamlessly into your workflow, eliminating the need for external tools or manual conversions.",
+      "author": {
+        "name": "bdbai",
+        "url": "https://github.com/bdbai"
+      },
+      "homepage": "https://github.com/bdbai/Base64ConverterExtension",
+      "tags": [
+        "base64",
+        "jwt"
+      ],
+      "categories": [
+        "utilities-and-tools",
+        "developer-tools"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9nj54mwrrn30"
+        },
+        {
+          "type": "url",
+          "uri": "https://github.com/bdbai/Base64ConverterExtension/releases/tag/v0.0.1.0"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/bdbai/base64-converter/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/bdbai/base64-converter/screenshots/01-encode-view.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/bdbai/base64-converter/screenshots/02-decode-view.png"
+      ],
+      "addedAt": "2026-05-10"
     },
     {
       "id": "caolib.project-opener",
@@ -409,6 +479,82 @@
         "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/dlnilsson/cmdpal-yubico-oath-otp/screenshots/02-settings.png"
       ],
       "addedAt": "2026-04-28"
+    },
+    {
+      "id": "fefedu973.universal-search-suggestions",
+      "title": "Universal Search Suggestions",
+      "shortDescription": "Browser-like web search suggestions, URL detection, local browser results, favicons, and rich details in Command Palette.",
+      "description": "Universal Search Suggestions brings browser-like search behavior to PowerToys Command Palette. It shows immediate direct search and URL actions, autocomplete from Google, Bing, DuckDuckGo, Brave and optional providers such as Yahoo, Ecosia, Qwant, Swisscows and Google Toolbar XML, Google rich suggestions, Google Omnibox answers such as calculator and short factual answers when exposed by the suggest endpoint, cached site favicons, and optional local browser bookmarks/history from Chrome, Edge, Brave or Firefox. Suggestions can still open through the user's preferred search engine or custom URL template. Optional beta detail enrichment can append Markdown from free web answer sources or a user-configured AI endpoint without blocking suggestion loading.",
+      "author": {
+        "name": "Fefe_du_973",
+        "url": "https://github.com/Fefedu973"
+      },
+      "homepage": "https://github.com/Fefedu973/UniversalSearchSuggestions",
+      "tags": [
+        "search",
+        "browser",
+        "autocomplete",
+        "google",
+        "powertoys"
+      ],
+      "categories": [
+        "productivity",
+        "utilities-and-tools"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9nccznpqb9s6"
+        },
+        {
+          "type": "url",
+          "uri": "https://github.com/Fefedu973/UniversalSearchSuggestions/releases/latest"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/fefedu973/universal-search-suggestions/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/fefedu973/universal-search-suggestions/screenshots/01-overview.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/fefedu973/universal-search-suggestions/screenshots/02-ai-answer-panel.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/fefedu973/universal-search-suggestions/screenshots/03-local-bookmarks.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/fefedu973/universal-search-suggestions/screenshots/04-instant-answers.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/fefedu973/universal-search-suggestions/screenshots/05-url-detection.png"
+      ],
+      "addedAt": "2026-05-10"
+    },
+    {
+      "id": "goucey.everythingextension",
+      "title": "EverythingExt",
+      "shortDescription": "Everything seach extension.",
+      "description": "An extension that enables Everything search in the Command Palette. Everything is a fast file search tool that helps users efficiently look up files and folders on your computer.",
+      "author": {
+        "name": "Goucey",
+        "url": "https://github.com/goucey"
+      },
+      "homepage": "https://github.com/goucey/EverythingExtension",
+      "tags": [
+        "everything",
+        "search",
+        "files"
+      ],
+      "categories": [
+        "productivity",
+        "utilities-and-tools"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9PND4PGFP6KM"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/goucey/everythingextension/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/goucey/everythingextension/screenshots/01-main-view.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/goucey/everythingextension/screenshots/02-search-1.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/goucey/everythingextension/screenshots/03-search-2.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/goucey/everythingextension/screenshots/04-search-4.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/goucey/everythingextension/screenshots/05-search-5.png"
+      ],
+      "addedAt": "2026-05-10"
     },
     {
       "id": "hoobio.bitwarden",
@@ -879,6 +1025,34 @@
       "addedAt": "2026-04-27"
     },
     {
+      "id": "kawaiizapic.totp",
+      "title": "TOTP",
+      "shortDescription": "Copy your two-factor verification code.",
+      "description": "TOTP adds the ability to copy your two-factor verification code to the clipboard, scan the QR code on screen to add a new authenticator.",
+      "author": {
+        "name": "KawaiiZapic",
+        "url": "https://github.com/KawaiiZapic"
+      },
+      "homepage": "https://github.com/KawaiiZapic/PowertoysRunTOTP",
+      "tags": [
+        "totp"
+      ],
+      "categories": [
+        "utilities-and-tools"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9pf3p6n44b2p"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/kawaiizapic/totp/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/kawaiizapic/totp/screenshots/1.jpg"
+      ],
+      "addedAt": "2026-05-10"
+    },
+    {
       "id": "kusutori.bitwarden-for-command-palette",
       "title": "Bitwarden",
       "shortDescription": "Integrates your Bitwarden vault into Windows PowerToys. Search, access, and manage credentials directly from the Command Palette.",
@@ -1202,6 +1376,43 @@
       "addedAt": "2026-04-12"
     },
     {
+      "id": "nickknissen.tableplus-command-palette",
+      "title": "TablePlus",
+      "shortDescription": "Browse and launch your TablePlus database connections directly from Command Palette.",
+      "description": "Surface your TablePlus database connections inside Command Palette so you can jump straight into a database without opening the TablePlus app first. Connections are grouped by their TablePlus connection group and tagged by environment (Local / Staging / Production) and driver (PostgreSQL, MySQL, SQLite, and others) so the right one is easy to spot.\n\nSelecting a connection opens it in TablePlus via the tableplus:// URI handler. The extension reads connections from the local TablePlus data files, so there is no extra configuration — install it and your saved connections show up immediately.\n\nRequires Windows 10 2004 or later, Microsoft PowerToys with Command Palette support, and TablePlus installed.",
+      "author": {
+        "name": "Nick Nissen",
+        "url": "https://github.com/nickknissen"
+      },
+      "homepage": "https://github.com/nickknissen/TablePlusCommandPalette",
+      "tags": [
+        "tableplus",
+        "database",
+        "sql",
+        "postgres",
+        "mysql"
+      ],
+      "categories": [
+        "developer-tools",
+        "productivity"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9P4L93228V63"
+        },
+        {
+          "type": "url",
+          "uri": "https://github.com/nickknissen/TablePlusCommandPalette/releases"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/nickknissen/tableplus-command-palette/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/nickknissen/tableplus-command-palette/screenshots/01-connection-list.jpg"
+      ],
+      "addedAt": "2026-05-10"
+    },
+    {
       "id": "nickknissen.tailscale-command-palette",
       "title": "Tailscale Command Palette",
       "shortDescription": "Browse your tailnet, view status, and run common Tailscale actions directly from Command Palette.",
@@ -1223,6 +1434,10 @@
         "utilities-and-tools"
       ],
       "installSources": [
+        {
+          "type": "msstore",
+          "id": "9N5NWRQ9FBLM"
+        },
         {
           "type": "winget",
           "id": "nickknissen.TailscaleCommandPalette"
@@ -1336,6 +1551,40 @@
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/nielslaute/teams-meeting-control/icon.png",
       "addedAt": "2026-04-10"
+    },
+    {
+      "id": "othmanamor.xrate",
+      "title": "xRate",
+      "shortDescription": "Fast, open-source real-time currency converter.",
+      "description": "xRate integrates with the Windows Command Palette to provide real-time currency exchange rates. Perform instant conversions between 160+ currencies directly from your workflow.",
+      "author": {
+        "name": "Othman AMOR",
+        "url": "https://github.com/Hotman75"
+      },
+      "homepage": "https://github.com/Hotman75/xRate",
+      "tags": [
+        "currency",
+        "converter",
+        "finance",
+        "exchange"
+      ],
+      "categories": [
+        "productivity",
+        "utilities-and-tools"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9pfkdjxlfwsh"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/othmanamor/xrate/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/othmanamor/xrate/screenshots/01-main-view.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/othmanamor/xrate/screenshots/02-calcul.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/othmanamor/xrate/screenshots/03-settings.png"
+      ],
+      "addedAt": "2026-05-10"
     },
     {
       "id": "poychang.translator",
