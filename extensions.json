@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/.github/schemas/gallery.schema.json",
   "version": "1.0",
-  "generatedAt": "2026-06-08T16:14:33Z",
-  "extensionCount": 60,
+  "generatedAt": "2026-06-23T13:31:50Z",
+  "extensionCount": 63,
   "extensions": [
     {
       "id": "8lwxpg.process-killer",
@@ -30,6 +30,10 @@
         {
           "type": "msstore",
           "id": "9PNHK9LDHMHS"
+        },
+        {
+          "type": "winget",
+          "id": "8LWXpg.ProcessKillerforCommandPalette"
         }
       ],
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/8lwxpg/process-killer/icon.png",
@@ -211,6 +215,42 @@
         "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/caolib/project-opener/screenshots/01-main-view.png"
       ],
       "addedAt": "2026-04-27"
+    },
+    {
+      "id": "chanbeiyu.vault-search",
+      "title": "Vault Search",
+      "shortDescription": "Search the contents of text files or markdown files",
+      "description": "Search markdown or text files, file contents, and tags in an Obsidian vault or folder",
+      "author": {
+        "name": "chanbeiyu",
+        "url": "https://github.com/chanbeiyu"
+      },
+      "homepage": "https://github.com/chanbeiyu/CmdPal",
+      "tags": [
+        "search",
+        "obsidian",
+        "folder",
+        "markdown",
+        "text"
+      ],
+      "categories": [
+        "productivity",
+        "education",
+        "utilities-and-tools"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9N4SD9ZD7PDW"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/chanbeiyu/vault-search/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/chanbeiyu/vault-search/screenshots/01-search.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/chanbeiyu/vault-search/screenshots/02-panel.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/chanbeiyu/vault-search/screenshots/03-full-text.png"
+      ],
+      "addedAt": "2026-06-23"
     },
     {
       "id": "costafotiadis.adb-extension",
@@ -398,6 +438,40 @@
         "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/daydreamer-riri/web-search-shortcut/screenshots/04-search-2.png"
       ],
       "addedAt": "2026-04-27"
+    },
+    {
+      "id": "denniezorg.game-library-dock",
+      "title": "Game Library Dock",
+      "shortDescription": "Game Library Dock brings your local Steam library and online friends to the PowerToys Command Palette Dock.",
+      "description": "Browse installed games alphabetically, search by title, view local cover artwork and recent-play information, and launch games directly through Steam. Add the online friends band to see who is available or currently playing, then select a friend to open a Steam chat.",
+      "author": {
+        "name": "DennieZorg",
+        "url": "https://github.com/ScymicX"
+      },
+      "tags": [
+        "gaming",
+        "friends",
+        "steam",
+        "launcher",
+        "dock"
+      ],
+      "categories": [
+        "entertainment",
+        "social"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9MX24LVV6P2D"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/denniezorg/game-library-dock/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/denniezorg/game-library-dock/screenshots/01-fullscreen-dock-and-friends.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/denniezorg/game-library-dock/screenshots/02-library.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/denniezorg/game-library-dock/screenshots/03-settings.png"
+      ],
+      "addedAt": "2026-06-23"
     },
     {
       "id": "determ1ne.scripter",
@@ -1563,7 +1637,9 @@
       "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/poychang/translator/icon.png",
       "screenshotUrls": [
         "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/poychang/translator/screenshots/01-main-view.png",
-        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/poychang/translator/screenshots/02-results.png"
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/poychang/translator/screenshots/02-results.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/poychang/translator/screenshots/03-choose-target-language.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/poychang/translator/screenshots/04-extension-setting.png"
       ],
       "addedAt": "2026-04-27"
     },
@@ -1718,6 +1794,40 @@
       "addedAt": "2026-06-08"
     },
     {
+      "id": "valleysoft.diskanalyzer",
+      "title": "ValleySoft Disk Analyzer",
+      "shortDescription": "Lightning-fast, beautifully designed disk space analysis tool for Windows.",
+      "description": "Analyze your disk space usage instantly and reclaim valuable storage space! The single Microsoft Store installation includes both a full Standalone UI App and a native Command Palette Extension.\n\nWhether you prefer a beautiful, dedicated window or lightning-fast access right from your keyboard, Disk Analyzer instantly scans your local drives and presents a clean, interactive breakdown of your largest files and heaviest folders.",
+      "author": {
+        "name": "ValleySoft",
+        "url": "https://github.com/valley-soft"
+      },
+      "homepage": "https://github.com/valley-soft/powertoys-diskanalyzer",
+      "tags": [
+        "disk",
+        "analyzer",
+        "storage",
+        "space",
+        "treesize"
+      ],
+      "categories": [
+        "utilities-and-tools",
+        "productivity"
+      ],
+      "installSources": [
+        {
+          "type": "msstore",
+          "id": "9NF073KLTVWN"
+        }
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/valleysoft/diskanalyzer/icon.png",
+      "screenshotUrls": [
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/valleysoft/diskanalyzer/screenshots/01-standalone-app-ui.png",
+        "https://raw.githubusercontent.com/microsoft/CmdPal-Extensions/main/extensions/valleysoft/diskanalyzer/screenshots/02-cmdpal.png"
+      ],
+      "addedAt": "2026-06-23"
+    },
+    {
       "id": "xisage.godot-engine",
       "title": "Godot Engine",
       "shortDescription": "A Windows Command Palette extension that allows you to quickly open and run your Godot Engine projects directly from the Windows Command Palette.",
@@ -1726,7 +1836,7 @@
         "name": "xiSage",
         "url": "https://xisage.com"
       },
-      "homepage": "https://github.com/xiSage/CmdPal-Extensions",
+      "homepage": "https://github.com/xiSage/GodotEngineForCommandPalette",
       "tags": [
         "godot-engine",
         "godot"
