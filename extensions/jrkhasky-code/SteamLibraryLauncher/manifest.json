@@ -1,12 +1,12 @@
 {
   "identifier": "SteamLibraryLauncher",
   "name": "Steam Library Launcher",
-  "author": "YourGitHubUsername",
+  "author": "jrkhasky-code",
   "description": "A quick Steam library launcher extension for PowerToys that scans local registry systems to launch titles natively.",
   "category": "Utilities",
   "website": "https://github.com",
   "installSource": {
     "type": "winget",
-    "id": "YourName.SteamLibraryLauncher"
+    "id": "Jack.SteamLibraryLauncher"
   }
 }
