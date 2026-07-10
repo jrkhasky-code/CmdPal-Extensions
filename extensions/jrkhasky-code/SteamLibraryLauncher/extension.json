@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../.github/schemas/extension.schema.json",
+  "id": "Jack.steam-library-launcher",
+  "title": "Steam Library Launcher",
+  "shortDescription": "A quick Steam library launcher extension for the PowerToys Command Palette.",
+  "icon": "StoreLogo.png",
+  "installSource": {
+    "type": "winget",
+    "id": "Jack.SteamLibraryLauncher"
+  }
+}
